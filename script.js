@@ -32,11 +32,12 @@ for (let i = 0; i < words.length; i++) {
 
     console.log(wordandbytes);
 
+    /*
     let node = document.createElement('li');
     node.appendChild(document.createTextNode(wordandbytes));
     document.querySelector('ul').appendChild(node);
 
-
+*/
 
 
     
