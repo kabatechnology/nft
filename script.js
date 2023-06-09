@@ -24,7 +24,7 @@ console.log(keccak256(words[2]).toString('hex'))
 for (let i = 0; i < words.length; i++) {
     let hash = keccak256(words[i]).toString('hex')
 
-    let bytes32Array = `[0x${hash}]     `;
+    let bytes32Array = `["0x${hash}"] `;
 
 
 
